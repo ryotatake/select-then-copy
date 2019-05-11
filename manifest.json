@@ -1,0 +1,12 @@
+{
+  "name": "select-then-copy",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "When you select characters with mouse, the characters are copied to clipboard immediately.",
+  "content_scripts": [{
+    "matches": ["https://*/*", "http://*/*"],
+    "js": [
+      "js/content.js"
+    ]
+  }]
+}
